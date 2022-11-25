@@ -13,14 +13,7 @@ jobs:
 
 
     steps:
-      - name: 'testing github actions'
-        run: pwd
-
-
-      - name: 'printing before'
-        run: ls
-      
       - uses: actions/checkout@v3
-      
-      - name: 'printing after'
-        run: ls
+      - name: 'login'
+        run : docker login --username AbdulrahmanTarek --password dckr_pat_I62yjnkjrlmLK7561HflamAZ-1M
+

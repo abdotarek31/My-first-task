@@ -1,7 +1,7 @@
 on:
-push:
-  branches:
-    - master
+  push:
+    branches:
+      - master
 
 
 
@@ -19,4 +19,3 @@ jobs:
 
       - name: 'testing printing'
         run: echo ahmed
-        

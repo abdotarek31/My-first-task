@@ -18,4 +18,4 @@ jobs:
 
 
       - name: 'testing printing'
-        run: echo ahmed
+        run: ls
